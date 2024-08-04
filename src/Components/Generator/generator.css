@@ -1,0 +1,52 @@
+.generator{
+    background-color: #141414;
+    width: 100%;
+    flex: 1;
+    gap: 20px;
+}
+.generator > div{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.generator h1{
+    padding: 15px;
+    font-size: 2em;
+}
+.generator button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(46, 1, 92);
+    font-size: 20px;
+}
+.output{
+    padding: 0 5px 0 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.output p{
+    font-size: 20px;
+}
+.generator button:hover{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(41, 0, 82);
+    font-size: 20px;
+}
+.output{
+    background-color: #282828;
+    width: 80%;
+    height: 50px;
+}
